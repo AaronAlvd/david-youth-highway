@@ -151,7 +151,7 @@ export default function Home() {
                 Founded by <span className="font-semibold">{YouthHighwayData.about.founder}</span>, our organization has
                 grown into a vital resource for youth in Sacramento and beyond.
               </p>
-              <p className="text-lg text-gray-600 italic">"{YouthHighwayData.about.spirit}"</p>
+              <p className="text-lg text-gray-600 italic">&qout;{YouthHighwayData.about.spirit}&quot;</p>
             </div>
           </div>
         </div>
@@ -164,7 +164,7 @@ export default function Home() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">Our Programs</h2>
             <div className="w-20 h-1 bg-blue-500 mx-auto mb-8"></div>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Through our diverse initiatives, we're making a tangible difference in the lives of young people across
+              Through our diverse initiatives, we&apos;re making a tangible difference in the lives of young people across
               our community.
             </p>
           </div>
@@ -258,8 +258,8 @@ export default function Home() {
                 </svg>
               </div>
               <p className="text-gray-600 mb-4 italic">
-                "Youth Highway provided my children with backpacks and school supplies when we couldn't afford them. The
-                confidence it gave them was priceless."
+                &quot;Youth Highway provided my children with backpacks and school supplies when we couldn&apos;t afford them. The
+                confidence it gave them was priceless.&quot;
               </p>
               <div className="font-medium">- Sarah M., Parent</div>
             </div>
@@ -271,8 +271,8 @@ export default function Home() {
                 </svg>
               </div>
               <p className="text-gray-600 mb-4 italic">
-                "The scholarship I received from Youth Highway changed my life. I'm the first in my family to attend
-                college, and I couldn't have done it without their support."
+                &quot;The scholarship I received from Youth Highway changed my life. I&apos;m the first in my family to attend
+                college, and I couldn&apos;t have done it without their support.&quot;
               </p>
               <div className="font-medium">- Marcus J., Scholarship Recipient</div>
             </div>
@@ -284,8 +284,8 @@ export default function Home() {
                 </svg>
               </div>
               <p className="text-gray-600 mb-4 italic">
-                "As a teacher, I've seen firsthand how Youth Highway's programs boost student confidence and engagement.
-                Their work makes a real difference in our classrooms."
+                &quot;As a teacher, I&apos;ve seen firsthand how Youth Highway&apos;s programs boost student confidence and engagement.
+                Their work makes a real difference in our classrooms.&quot;
               </p>
               <div className="font-medium">- Lisa T., Educator</div>
             </div>
